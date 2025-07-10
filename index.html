@@ -28,15 +28,15 @@
             </div>
             <div class="col-4 bg-white p-5">
                 <label for="" class="label-form d-flex justify-content-center fs-4">Km da percorrere</label>
-                <input type="text" name="name" id="name" class="form-control" required>
+                <input type="text" name="name" id="travel" class="form-control" required>
             </div>
             <div class="col-4 bg-white p-5">
                 <label for="" class="label-form d-flex justify-content-center fs-4">Fascia
                     d'età</label>
-                <select name="title" id="title" class="form-select">
+                <select name="title" id="age" class="form-select">
                     <option value="minor">Minorenne</option>
                     <option value="adult">Maggiorenne</option>
-                    <option value="old">Adulto</option>
+                    <option value="old">Senior</option>
                 </select>
             </div>
 
@@ -45,12 +45,14 @@
         <div class="row">
             <div class="col-12 d-flex justify-content-center bg-white p-4">
                 <div class="btn-case">
-                    <button type="button" id="btn"
-                        class="btn btn-primary justify-content-center fs-4 fw-bold">Genera</button>
+                    <button type="button" id="btn" class="btn btn-primary justify-content-center fs-4 fw-bold"><span
+                            id="show-price"></span>Genera</button>
                     <button type="button" class="btn btn-primary justify-content-center fs-4 fw-bold">Annulla</button>
                 </div>
             </div>
         </div>
+
+        <!-- aggiungere ultimo row, risultato calcolo del biglietto -->
 
 
     </div>
