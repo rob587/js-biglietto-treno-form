@@ -22,3 +22,11 @@ else if(ageRequest>yearOlder){
 
 
 console.log("Prezzo finale: € " + price.toFixed(2));
+
+//-----------//
+
+const button = document.getElementById('btn');
+
+button.addEventListener('click', (e) => {
+    e.preventDefault()
+})
