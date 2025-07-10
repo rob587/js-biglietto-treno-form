@@ -45,15 +45,48 @@
         <div class="row">
             <div class="col-12 d-flex justify-content-center bg-white p-4">
                 <div class="btn-case">
-                    <button type="button" id="btn" class="btn btn-primary justify-content-center fs-4 fw-bold"><span
-                            id="show-price"></span>Genera</button>
+                    <button type="button" id="btn"
+                        class="btn btn-primary justify-content-center fs-4 fw-bold">Genera</button>
                     <button type="button" class="btn btn-primary justify-content-center fs-4 fw-bold">Annulla</button>
                 </div>
             </div>
         </div>
 
-        <!-- aggiungere ultimo row, risultato calcolo del biglietto -->
+        <div class="row">
+            <div class="col-12">
+                <h1 class=" pt-4 d-flex justify-content-center">IL TUO BIGLIETTO</h1>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col bg-white pt-5">
+                <h3>Dettaglio passeggeri</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col bg-white ">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome Passeggero</th>
+                            <th scope="col">Offerta</th>
+                            <th scope="col">Carrozza</th>
+                            <th scope="col">Costo biglietto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" id="show-name"></th>
+                            <td>Biglietto Standard</td>
+                            <td>10</td>
+                            <td id="show-price"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
     </div>
 

@@ -20,26 +20,24 @@ button.addEventListener('click', (e) => {
     const kmrun = document.getElementById('travel').value
     const years = document.getElementById('age').value
 
+  
+
     const yearMinor= 'minor'
     const yearOlder= 'old'
     const ticket= 0.21
     const km = parseFloat(kmrun)
 
     let price = km * 0.21;
+    let offer = "Biglietto Standard"
 
     if(years===yearMinor){
-    price= price*0.8
+        price= price*0.8
+        offer= 'Sconto Minorenni'
     
     }
 
     else if(years===yearOlder){
-    price= price*0.6
+        price= price*0.6
+        offer= 'Sconto Over 65'
     }
 
-
-
-          //da aggiustare
-
-    document.getElementById('show-price').innerText=   `Ciao ${name}, prezzo: € ${price.toFixed(2)}`;
-
-})
